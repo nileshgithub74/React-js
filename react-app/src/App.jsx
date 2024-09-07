@@ -1,5 +1,6 @@
-import Header from './Header.jsx'
-import Footer from './Footer.jsx'
+import Header from './Header.jsx';
+import Footer from './Footer.jsx';
+import Button from './Button/Button.jsx';
 
 import Cart from './Cart.jsx'
 function App() {
@@ -10,10 +11,8 @@ function App() {
     <Header/>
     <Footer></Footer>
     <Cart/>
-    <Cart/>
-    <Cart/>
-    <Cart/>
-    <Cart/>
+   
+    <Button/>
     
     </>
   )
